@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+ 
+
+<hibernate-mapping>
+
+<class name="seat.Seat" table="pss_seat22">
+<id name="seatno" column="seatno">
+<generator class="sequence"/>
+</id>
+
+<!--  property name="date" column="date"></property-->
+<property name="time" column="time"></property>
+<property name="seats" column="seats"></property>
+<property name="cost" column="cost"></property>
+</class>
+
+</hibernate-mapping>
+
